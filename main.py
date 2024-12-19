@@ -2,7 +2,6 @@ def main():
     path_to_file = "books/frankenstein.txt"
     text = get_book_text(path_to_file)
     word_count = count_words(text)
-    char_count = get_count_characters(text)
     char_dict = get_count_characters(text)
     char_sorted_list = char_dict_sorted_list(char_dict)
 
